@@ -1,0 +1,30 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@* @Styles.Render("~/scripts/myScript.js") *@
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to my Flashcards App</h1>
+    @foreach(var deck in Model.Decks)
+    {
+        <div class="card" style="width: 18rem;">
+            @* <img class="card-img-top" src="..." alt="Card image cap"> *@
+            <div class="card-body">
+                <h5 class="card-title">@deck.Name</h5>
+                <p class="card-text">@deck.Description</p>
+                <a href="deck/@deck.Id" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    }
+  
+    <div class="card" style="width: 18rem;">
+        @* <img class="card-img-top" src="..." alt="Card image cap"> *@
+        <div class="card-body">
+            <h5 class="card-title">+</h5>
+            <a href="deck/create" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+</div>
