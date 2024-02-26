@@ -20,8 +20,8 @@ namespace DemoAlexa.Pages
 
         public void OnGet(string lang)
         {
-            lang = "nl";
-            Decks = _deckService.GetDecks();
+            lang = "RU";
+            Decks = _deckService.GetDecks(lang);
         }
     }
 }

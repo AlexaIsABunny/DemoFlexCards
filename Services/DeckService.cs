@@ -16,24 +16,22 @@ namespace DemoAlexa.Services
                     Id = 1,
                     Name = "Kleuren",
                     Description = "Kleuren leren van Frans naar Nederlands",
-                    Lang1 = "nl",
-                    Lang2 = "fr",
+                    Language = "RU"
                 },
                 new Deck()
                 {
                     Id = 2,
                     Name = "Russisch",
                     Description = "Russische decks",
-                    Lang1 = "en",
-                    Lang2 = "fr",
+                    Language = "RU",
                 },
             };
         }
 
-        public List<Deck> GetDecks()
+        public List<Deck> GetDecks(string language)
         {
             return _decks
-                .Where(x => x.Lang1 == "nl").ToList()
+                .Where(x => x.Language == language).ToList()
                 ;
         }
 

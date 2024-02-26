@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoAlexa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdf33fdeed42fb7242ed731d1e5f42a0cb1d6bbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoAlexa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoAlexa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

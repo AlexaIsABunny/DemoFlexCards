@@ -58,3 +58,4 @@ C:\Users\alexa\Desktop\Projectssss\DemoAlexa\obj\Debug\net8.0\refint\DemoAlexa.d
 C:\Users\alexa\Desktop\Projectssss\DemoAlexa\obj\Debug\net8.0\DemoAlexa.pdb
 C:\Users\alexa\Desktop\Projectssss\DemoAlexa\obj\Debug\net8.0\DemoAlexa.genruntimeconfig.cache
 C:\Users\alexa\Desktop\Projectssss\DemoAlexa\obj\Debug\net8.0\ref\DemoAlexa.dll
+C:\Users\alexa\Desktop\Projectssss\DemoAlexa\obj\Debug\net8.0\DemoAlexa.sourcelink.json

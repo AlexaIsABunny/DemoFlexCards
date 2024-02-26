@@ -19,11 +19,13 @@ namespace DemoAlexa.Pages.Decks
         {
         }
 
-        public IActionResult OnPost(string name, string description)
+        public IActionResult OnPost(string name, string description, string language)
         {
             var deck = new Deck()
             {
-                Name = name
+                Name = name,
+                Description = description,
+                Language = language
             };
 
             _deckService.InsertDeck(deck);
